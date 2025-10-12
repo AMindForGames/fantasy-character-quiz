@@ -1,6 +1,6 @@
 @font-face {
     font-family: "king";
-    src: url("../assets/font/Kingthings\ Exeter.ttf");
+    src: url("../assets/font/kingthings.ttf") format("truetype");
 }
 
 .question-text {
