@@ -1,0 +1,44 @@
+{
+    "1" : {
+        "question" : "Wie ist dein Name?",
+        "answers" : {
+            "a" : {
+                "text" : "Roman",
+                "result" : [1,0,0,0]
+            },
+            "b" : {
+                "text" : "Anita",
+                "result" : [0,1,0,0]
+            },
+            "c" : {
+                "text" : "Luisa",
+                "result" : [0,0,1,0]
+            },
+            "d" : {
+                "text" : "Valentina",
+                "result" : [0,0,0,1]
+            }
+        }
+    },
+    "2" : {
+        "question" : "Was ist deine Lieblingsfarbe?",
+        "answers" : {
+            "a" : {
+                "text" : "Blau",
+                "result" : [1,0,0,0]
+            },
+            "b" : {
+                "text" : "Rot",
+                "result" : [0,1,0,0]
+            },
+            "c" : {
+                "text" : "Grün",
+                "result" : [0,0,1,0]
+            },
+            "d" : {
+                "text" : "Gelb",
+                "result" : [0,0,0,1]
+            }
+        }
+    }
+}
