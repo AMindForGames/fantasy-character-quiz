@@ -1,6 +1,6 @@
 @font-face {
     font-family: "king";
-    src: url("../../fantasy-character-quiz/assets/font/kingthings.ttf") format("truetype");
+    src: url("../fantasy-character-quiz/assets/font/kingthings.ttf") format("truetype");
 }
 
 .question-text {
