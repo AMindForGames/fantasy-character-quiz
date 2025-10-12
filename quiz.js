@@ -1,4 +1,4 @@
-const url = "../json/test.json";
+const url = "json/test.json";
 let myData;
 let questionIndex = 0;
 let answerArray = [0,0,0,0];
