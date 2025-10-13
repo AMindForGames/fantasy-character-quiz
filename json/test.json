@@ -1,44 +1,283 @@
 {
-    "1" : {
-        "question" : "Wie ist dein Name?",
-        "answers" : {
-            "a" : {
-                "text" : "Roman",
-                "result" : [1,0,0,0]
-            },
-            "b" : {
-                "text" : "Anita",
-                "result" : [0,1,0,0]
-            },
-            "c" : {
-                "text" : "Luisa",
-                "result" : [0,0,1,0]
-            },
-            "d" : {
-                "text" : "Valentina",
-                "result" : [0,0,0,1]
-            }
+  "class_order": [
+    "Barbar",
+    "Barde",
+    "Hexenmeister",
+    "Kämpfer",
+    "Kleriker",
+    "Magier",
+    "Mönch",
+    "Paladin",
+    "Schurke",
+    "Waldläufer",
+    "Zauberer",
+    "Druide"
+  ],
+
+  "quiz": {
+    "1": {
+      "question": "Du findest eine Höhle mit einem schlafenden Drachen, dessen Atem die Luft zum Glühen bringt. Ein alter Zwerg warnt dich: *Er träumt von Feuer – und wenn er erwacht, brennt die Welt.*",
+      "answers": {
+        "a": {
+          "text": "Ich nehme meinen Schild und stelle mich vor seinen Rachen. Wenn er aufwacht, werde ich ihn aufhalten.",
+          "result": [3, 7]
+        },
+        "b": {
+          "text": "Ich singe ein Lied aus seiner Jugend – vielleicht träumt er dann von etwas anderem.",
+          "result": [1, 11]
+        },
+        "c": {
+          "text": "Ich schleiche mich an und steche ihm ein magisches Amulett ins Fleisch, um seinen Traum zu stehlen.",
+          "result": [2, 8]
+        },
+        "d": {
+          "text": "Ich setze mich zu ihm und meditiere. Vielleicht kann ich seinen Traum *ändern*.",
+          "result": [5, 6]
         }
+      }
     },
-    "2" : {
-        "question" : "Was ist deine Lieblingsfarbe?",
-        "answers" : {
-            "a" : {
-                "text" : "Blau",
-                "result" : [1,0,0,0]
-            },
-            "b" : {
-                "text" : "Rot",
-                "result" : [0,1,0,0]
-            },
-            "c" : {
-                "text" : "Grün",
-                "result" : [0,0,1,0]
-            },
-            "d" : {
-                "text" : "Gelb",
-                "result" : [0,0,0,1]
-            }
+
+    "2": {
+      "question": "In einer Taverne bricht ein unaufhörliches Lachen aus – doch wer lacht, vergisst, wer er ist. Der Wirt flüstert: *Nur die Wahrheit kann es stoppen.*",
+      "answers": {
+        "a": {
+          "text": "Ich schlage mit der Faust auf den Tisch und brülle: *Genug!* – die Stille kehrt zurück.",
+          "result": [0, 3]
+        },
+        "b": {
+          "text": "Ich lache mit und flüstere: *Ich habe den König bestohlen.* – dann beobachte ich, wer aufhört.",
+          "result": [1, 8]
+        },
+        "c": {
+          "text": "Ich schließe die Augen und zähle meine Atemzüge, bis das Lachen verstummt.",
+          "result": [6, 11]
+        },
+        "d": {
+          "text": "Ich sage: *Ich fürchte mich vor der Stille.* – und plötzlich ist es still.",
+          "result": [4, 5]
         }
+      }
+    },
+
+    "3": {
+      "question": "Eine schwarze Münze fällt dir vor die Füße. Eine Stimme sagt: *Wähle: Macht oder Freiheit.*",
+      "answers": {
+        "a": {
+          "text": "Ich werfe sie weg. Ich brauche keine Münze, um mich zu entscheiden.",
+          "result": [0, 6]
+        },
+        "b": {
+          "text": "Ich nehme sie und sage: *Ich wähle beides.* – dann verstecke ich sie.",
+          "result": [1, 8]
+        },
+        "c": {
+          "text": "Ich lege sie auf einen Altar und bitte die Götter, mir die richtige Wahl zu zeigen.",
+          "result": [4, 7]
+        },
+        "d": {
+          "text": "Ich schmelze sie ein und forme einen Pfeil. Vielleicht liegt die Antwort im *Handeln*.",
+          "result": [3, 9]
+        }
+      }
+    },
+
+    "4": {
+      "question": "Ein Garten voller lügender Blumen flüstert dir Geheimnisse zu. Eine sagt: *Ich heile.* Eine andere: *Ich zeige dir die Zukunft.*",
+      "answers": {
+        "a": {
+          "text": "Ich pflücke die, die am lautesten flüstert – und trinke ihren Saft.",
+          "result": [0, 2]
+        },
+        "b": {
+          "text": "Ich setze mich hin und beobachte, welche Blume *nicht* spricht.",
+          "result": [9, 11]
+        },
+        "c": {
+          "text": "Ich pflücke alle drei und mische sie zu einem Trank. Vielleicht heben sich die Lügen auf.",
+          "result": [5, 10]
+        },
+        "d": {
+          "text": "Ich bete zu den Göttern der Natur und bitte um eine ehrliche Blume.",
+          "result": [1, 4]
+        }
+      }
+    },
+
+    "5": {
+      "question": "Du triffst auf dein zukünftiges Ich – aber es ist ein Mörder. Es sagt: *Du wirst so enden. Willst du es ändern?*",
+      "answers": {
+        "a": {
+          "text": "Ich greife es an. Wenn das meine Zukunft ist, werde ich sie zerstören.",
+          "result": [0, 3]
+        },
+        "b": {
+          "text": "Ich frage: *Wer war dein erstes Opfer?* – und notiere mir den Namen.",
+          "result": [2, 8]
+        },
+        "c": {
+          "text": "Ich knie nieder und bitte um Führung, wie ich diesen Pfad vermeiden kann.",
+          "result": [4, 6]
+        },
+        "d": {
+          "text": "Ich lache und sage: *Vielleicht lügst du.* – dann gehe ich weiter.",
+          "result": [1, 5]
+        }
+      }
+    },
+
+    "6": {
+      "question": "Ein Fremder bietet dir Wein an, der *Wahrheiten zeigt*. Als du trinkst, siehst du, wie deine Freunde dich verraten.",
+      "answers": {
+        "a": {
+          "text": "Ich zerschlage den Kelch und verlange Antworten – mit der Faust, wenn nötig.",
+          "result": [0, 7]
+        },
+        "b": {
+          "text": "Ich lache und sage: *Ich wusste es schon.* – dann trinke ich weiter.",
+          "result": [2, 8]
+        },
+        "c": {
+          "text": "Ich spucke den Wein aus und bete um Reinigung. Vielleicht war es eine Prüfung.",
+          "result": [4, 11]
+        },
+        "d": {
+          "text": "Ich beobachte den Fremden genau – *er* hat mir den Wein gegeben.",
+          "result": [5, 9]
+        }
+      }
+    },
+
+    "7": {
+      "question": "Ein stummer Wächter blockiert einen Durchgang. Eine Inschrift sagt: *Sprich dein größtes Geheimnis.*",
+      "answers": {
+        "a": {
+          "text": "Ich gehe einfach durch – wenn er mich aufhalten will, werde ich kämpfen.",
+          "result": [0, 3]
+        },
+        "b": {
+          "text": "Ich flüstere: *Ich habe noch nie die Wahrheit gesagt.*",
+          "result": [1, 8]
+        },
+        "c": {
+          "text": "Ich lege meine Hand auf sein Herz und sage: *Ich fürchte den Tod nicht.*",
+          "result": [6, 7]
+        },
+        "d": {
+          "text": "Ich singe ein Lied ohne Worte – vielleicht versteht er das.",
+          "result": [1, 11]
+        }
+      }
+    },
+
+    "8": {
+      "question": "Ein Geist bittet dich, sein Amulett zu seiner Geliebten zu bringen – doch es zeigt dir ihre *wahren* Absichten.",
+      "answers": {
+        "a": {
+          "text": "Ich werfe es in einen Fluss. Geister sollten ruhen.",
+          "result": [7, 4]
+        },
+        "b": {
+          "text": "Ich trage es zu ihr und nutze die Wahrheit, um sie zu erpressen.",
+          "result": [2, 8]
+        },
+        "c": {
+          "text": "Ich studiere das Amulett und versuche, den Fluch zu brechen.",
+          "result": [5, 10]
+        },
+        "d": {
+          "text": "Ich gebe es ihr und sage: *Er liebte dich. Aber jetzt musst du loslassen.*",
+          "result": [1, 11]
+        }
+      }
+    },
+
+    "9": {
+      "question": "Ein magischer Spiegel zeigt dir, was du am meisten begehrst – doch er lügt manchmal.",
+      "answers": {
+        "a": {
+          "text": "Ich zerschlage ihn. Begehren macht schwach.",
+          "result": [0, 6]
+        },
+        "b": {
+          "text": "Ich berühre ihn und flüstere: *Zeig mir, wie ich es erreiche.*",
+          "result": [2, 5]
+        },
+        "c": {
+          "text": "Ich lache und sage: *Ich will nichts.* – dann beobachte ich, was passiert.",
+          "result": [1, 8]
+        },
+        "d": {
+          "text": "Ich schließe die Augen und bitte die Götter, mir zu zeigen, was ich *wirklich* brauche.",
+          "result": [4, 11]
+        }
+      }
+    },
+
+    "10": {
+      "question": "Ein Schatten bietet dir einen Deal: *Ich gebe dir unsichtbare Klingen – aber du musst mir deine Stimme für eine Nacht leihen.*",
+      "answers": {
+        "a": {
+          "text": "Ich nehme die Klingen und sage: *Ich werde sie gegen dich einsetzen.*",
+          "result": [3, 8]
+        },
+        "b": {
+          "text": "Ich akzeptiere – aber ich *lüge* die ganze Nacht.",
+          "result": [1, 2]
+        },
+        "c": {
+          "text": "Ich lehne ab und zünde eine Kerze an. Schatten fürchten das Licht.",
+          "result": [4, 7]
+        },
+        "d": {
+          "text": "Ich frage: *Wessen Stimme hörst du dann?*",
+          "result": [5, 9]
+        }
+      }
+    },
+
+    "11": {
+      "question": "Ein Hofnarr lacht dich an – und plötzlich kannst du nicht mehr aufhören zu lachen. Die anderen starren dich an.",
+      "answers": {
+        "a": {
+          "text": "Ich schlage ihm ins Gesicht. *Das ist meine Wahrheit.*",
+          "result": [0, 3]
+        },
+        "b": {
+          "text": "Ich lache lauter und sage: *Ich habe den König bestohlen!*",
+          "result": [1, 8]
+        },
+        "c": {
+          "text": "Ich schließe die Augen und atme, bis das Lachen verschwindet.",
+          "result": [6, 11]
+        },
+        "d": {
+          "text": "Ich sage: *Ich fürchte mich vor der Stille.* – und plötzlich ist es still.",
+          "result": [4, 5]
+        }
+      }
+    },
+
+    "12": {
+      "question": "Eine Brücke aus Tränen führt über einen Fluss. Ein Kind fragt: *Warum weinen die Toten?*",
+      "answers": {
+        "a": {
+          "text": "Ich trage das Kind hinüber und sage: *Ich werde mich an dich erinnern.*",
+          "result": [7, 4]
+        },
+        "b": {
+          "text": "Ich sammle die Tränen in einer Phiole. Vielleicht sind sie nützlich.",
+          "result": [2, 10]
+        },
+        "c": {
+          "text": "Ich springe in den Fluss und schwimme durch. Vielleicht finde ich Antworten unten.",
+          "result": [6, 9]
+        },
+        "d": {
+          "text": "Ich schreie die Namen der Toten in den Fluss. Vielleicht hören sie mich.",
+          "result": [1, 11]
+        }
+      }
     }
+  }
 }
+
