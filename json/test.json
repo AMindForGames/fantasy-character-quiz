@@ -16,44 +16,44 @@
 
   "quiz": {
     "1": {
-      "question": "Du findest eine Höhle mit einem schlafenden Drachen, dessen Atem die Luft zum Glühen bringt. Ein alter Zwerg warnt dich: *Er träumt von Feuer – und wenn er erwacht, brennt die Welt.*",
+      "question": "Du steigst hinab in eine Höhle. In ihr ruht ein Drache dessen Atem die Luft zum Glühen bringt. Ein alter Zwerg warnte dich: *Er träumt vom ewigen Feuer. Wenn er erwacht, dann brennt die Welt.*",
       "answers": {
         "a": {
-          "text": "Ich nehme meinen Schild und stelle mich vor seinen Rachen. Wenn er aufwacht, werde ich ihn aufhalten.",
+          "text": "Ich stelle mich vor seinen Rachen, denn ich werde ihn aufhalten.",
           "result": [3, 7]
         },
         "b": {
-          "text": "Ich singe ein Lied aus seiner Jugend – vielleicht träumt er dann von etwas anderem.",
+          "text": "Ich singe ein Lied um ihn zu besänftigen. Vielleicht träumt er dann von etwas anderem.",
           "result": [1, 11]
         },
         "c": {
-          "text": "Ich schleiche mich an und steche ihm ein magisches Amulett ins Fleisch, um seinen Traum zu stehlen.",
+          "text": "Ich nutze ein magisches Amulett, dass ich vorbereitet habe, um seinen Traum zu stehlen.",
           "result": [2, 8]
         },
         "d": {
-          "text": "Ich setze mich zu ihm und meditiere. Vielleicht kann ich seinen Traum *ändern*.",
+          "text": "Ich setze mich zu ihm und meditiere. Vielleicht kann ich seinen Traum zum positiven wenden.",
           "result": [5, 6]
         }
       }
     },
 
     "2": {
-      "question": "In einer Taverne bricht ein unaufhörliches Lachen aus – doch wer lacht, vergisst, wer er ist. Der Wirt flüstert: *Nur die Wahrheit kann es stoppen.*",
+      "question": "In einer Taverne bricht ein unaufhörliches Lachen aus. Wer lacht scheint zu vergessen wer er ist. Ein Priester behauptet: *Nur die Wahrheit kann es stoppen.*",
       "answers": {
         "a": {
-          "text": "Ich schlage mit der Faust auf den Tisch und brülle: *Genug!* – die Stille kehrt zurück.",
+          "text": "Ich schlage mit der Faust auf den Tisch und brülle: *Genug!*",
           "result": [0, 3]
         },
         "b": {
-          "text": "Ich lache mit und flüstere: *Ich habe den König bestohlen.* – dann beobachte ich, wer aufhört.",
+          "text": "Ich flüstere leise: *Ich habe den König bestohlen.* Dann beobachte ich, wer aufhört.",
           "result": [1, 8]
         },
         "c": {
-          "text": "Ich schließe die Augen und zähle meine Atemzüge, bis das Lachen verstummt.",
+          "text": "Ich schließe die Augen und zähle meine Atemzüge, bis die Ruhe das Lachen verstummt.",
           "result": [6, 11]
         },
         "d": {
-          "text": "Ich sage: *Ich fürchte mich vor der Stille.* – und plötzlich ist es still.",
+          "text": "Ich sage: *Ich fürchte mich vor der Stille.* Und plötzlich wird es still.",
           "result": [4, 5]
         }
       }
@@ -63,11 +63,11 @@
       "question": "Eine schwarze Münze fällt dir vor die Füße. Eine Stimme sagt: *Wähle: Macht oder Freiheit.*",
       "answers": {
         "a": {
-          "text": "Ich werfe sie weg. Ich brauche keine Münze, um mich zu entscheiden.",
+          "text": "Ich werfe sie weg. Ich entscheide selbst, welchen Weg ich wähle.",
           "result": [0, 6]
         },
         "b": {
-          "text": "Ich nehme sie und sage: *Ich wähle beides.* – dann verstecke ich sie.",
+          "text": "Ich nehme sie und sage: *Ich wähle beides.* Dann verstecke ich sie dort, wo sie niemand findet.",
           "result": [1, 8]
         },
         "c": {
@@ -75,7 +75,7 @@
           "result": [4, 7]
         },
         "d": {
-          "text": "Ich schmelze sie ein und forme einen Pfeil. Vielleicht liegt die Antwort im *Handeln*.",
+          "text": "Ich schmelze sie ein und forme einen Pfeil. Die Antwort liegt in dem, was man mit der Münze macht.",
           "result": [3, 9]
         }
       }
@@ -85,15 +85,15 @@
       "question": "Ein Garten voller lügender Blumen flüstert dir Geheimnisse zu. Eine sagt: *Ich heile.* Eine andere: *Ich zeige dir die Zukunft.*",
       "answers": {
         "a": {
-          "text": "Ich pflücke die, die am lautesten flüstert – und trinke ihren Saft.",
+          "text": "Ich pflücke die, die am lautesten flüstert und trinke ihren Saft.",
           "result": [0, 2]
         },
         "b": {
-          "text": "Ich setze mich hin und beobachte, welche Blume *nicht* spricht.",
+          "text": "Ich setze mich hin und beobachte, welche Blume schweigt.",
           "result": [9, 11]
         },
         "c": {
-          "text": "Ich pflücke alle drei und mische sie zu einem Trank. Vielleicht heben sich die Lügen auf.",
+          "text": "Ich pflücke alle und mische sie zu einem magischen Trank.",
           "result": [5, 10]
         },
         "d": {
@@ -104,14 +104,14 @@
     },
 
     "5": {
-      "question": "Du triffst auf dein zukünftiges Ich – aber es ist ein Mörder. Es sagt: *Du wirst so enden. Willst du es ändern?*",
+      "question": "Du triffst auf dein zukünftiges, mörderisches Ich. Es grinst dich an und sagt: *Du wirst so enden wie ich. Willst du es ändern?*",
       "answers": {
         "a": {
-          "text": "Ich greife es an. Wenn das meine Zukunft ist, werde ich sie zerstören.",
+          "text": "Ich greife es an. Wenn das meine Zukunft ist, muss ich sie zerstören.",
           "result": [0, 3]
         },
         "b": {
-          "text": "Ich frage: *Wer war dein erstes Opfer?* – und notiere mir den Namen.",
+          "text": "Ich frage: *Wer war dein erstes Opfer?* und notiere mir den Namen.",
           "result": [2, 8]
         },
         "c": {
@@ -119,7 +119,7 @@
           "result": [4, 6]
         },
         "d": {
-          "text": "Ich lache und sage: *Vielleicht lügst du.* – dann gehe ich weiter.",
+          "text": "Ich lache und sage: *Du bist nicht mehr als ein Trick.* Dann gehe ich weiter.",
           "result": [1, 5]
         }
       }
@@ -129,19 +129,19 @@
       "question": "Ein Fremder bietet dir Wein an, der *Wahrheiten zeigt*. Als du trinkst, siehst du, wie deine Freunde dich verraten.",
       "answers": {
         "a": {
-          "text": "Ich zerschlage den Kelch und verlange Antworten – mit der Faust, wenn nötig.",
+          "text": "Ich zerschlage den Kelch und verlange Antworten. Mit der Faust, wenn nötig.",
           "result": [0, 7]
         },
         "b": {
-          "text": "Ich lache und sage: *Ich wusste es schon.* – dann trinke ich weiter.",
+          "text": "Ich lache und sage: *Ich wusste das schon.* Dann trinke ich weiter.",
           "result": [2, 8]
         },
         "c": {
-          "text": "Ich spucke den Wein aus und bete um Reinigung. Vielleicht war es eine Prüfung.",
+          "text": "Ich spucke den unreinen Wein aus. Vielleicht war es eine Prüfung.",
           "result": [4, 11]
         },
         "d": {
-          "text": "Ich beobachte den Fremden genau – *er* hat mir den Wein gegeben.",
+          "text": "Ich beobachte den Fremden genau, schließlich hat er mir den Wein gegeben.",
           "result": [5, 9]
         }
       }
@@ -151,7 +151,7 @@
       "question": "Ein stummer Wächter blockiert einen Durchgang. Eine Inschrift sagt: *Sprich dein größtes Geheimnis.*",
       "answers": {
         "a": {
-          "text": "Ich gehe einfach durch – wenn er mich aufhalten will, werde ich kämpfen.",
+          "text": "Ich gehe einfach durch. Wenn er mich aufhalten will, wird er es bereuen.",
           "result": [0, 3]
         },
         "b": {
@@ -163,14 +163,14 @@
           "result": [6, 7]
         },
         "d": {
-          "text": "Ich singe ein Lied ohne Worte – vielleicht versteht er das.",
+          "text": "Ich singe ein Lied ohne Worte. Vielleicht versteht er das.",
           "result": [1, 11]
         }
       }
     },
 
     "8": {
-      "question": "Ein Geist bittet dich, sein Amulett zu seiner Geliebten zu bringen – doch es zeigt dir ihre *wahren* Absichten.",
+      "question": "Ein Geist bittet dich, sein Amulett zu seiner Geliebten zu bringen. Doch es zeigt dir des Geistes' *wahre* Absichten.",
       "answers": {
         "a": {
           "text": "Ich werfe es in einen Fluss. Geister sollten ruhen.",
@@ -192,7 +192,7 @@
     },
 
     "9": {
-      "question": "Ein magischer Spiegel zeigt dir, was du am meisten begehrst – doch er lügt manchmal.",
+      "question": "Ein magischer Spiegel zeigt dir, was du am meisten begehrst. Doch dabei bedient er sich oft Halbwahrheiten und Tricks.",
       "answers": {
         "a": {
           "text": "Ich zerschlage ihn. Begehren macht schwach.",
@@ -203,25 +203,25 @@
           "result": [2, 5]
         },
         "c": {
-          "text": "Ich lache und sage: *Ich will nichts.* – dann beobachte ich, was passiert.",
+          "text": "Ich lache und sage: *Ich will nichts.* Dann blicke ich hinein um zu sehen was passiert.",
           "result": [1, 8]
         },
         "d": {
-          "text": "Ich schließe die Augen und bitte die Götter, mir zu zeigen, was ich *wirklich* brauche.",
+          "text": "Ich schließe die Augen und bitte mir zu zeigen, was ich *wirklich* brauche.",
           "result": [4, 11]
         }
       }
     },
 
     "10": {
-      "question": "Ein Schatten bietet dir einen Deal: *Ich gebe dir unsichtbare Klingen – aber du musst mir deine Stimme für eine Nacht leihen.*",
+      "question": "Ein Schatten bietet dir einen Handel an: *Ich gebe dir eine mächtige Waffe. Aber du musst mir deinen Körper für eine Nacht leihen.*",
       "answers": {
         "a": {
-          "text": "Ich nehme die Klingen und sage: *Ich werde sie gegen dich einsetzen.*",
+          "text": "Ich nehme die Waffe und setze sie gegen den Schatten ein.",
           "result": [3, 8]
         },
         "b": {
-          "text": "Ich akzeptiere – aber ich *lüge* die ganze Nacht.",
+          "text": "Ich akzeptiere die Waffe und versuche den Schatten zu hintergehen.",
           "result": [1, 2]
         },
         "c": {
@@ -229,51 +229,51 @@
           "result": [4, 7]
         },
         "d": {
-          "text": "Ich frage: *Wessen Stimme hörst du dann?*",
+          "text": "Ich frage ihn, was er mit meinem Körper vor hat, und mache es davon abhängig.",
           "result": [5, 9]
         }
       }
     },
 
     "11": {
-      "question": "Ein Hofnarr lacht dich an – und plötzlich kannst du nicht mehr aufhören zu lachen. Die anderen starren dich an.",
+      "question": "Ein blinder Bettler hält dich am Marktplatz auf und flüstert: 'Ich sehe mehr als du denkst. Gib mir deine Hand, und ich zeige dir dein Schicksal.' Als du zögerst, fügt er hinzu: 'Aber Vorsicht, denn nicht alle Pfade sind für schwache Seelen gemacht.' Seine Finger umschließen deine Hand, und plötzlich siehst du vier Bilder: Ein brennendes Dorf, einen goldenen Thron, einen einsamen Turm und einen Wald, der im Mondlicht flüstert.",
       "answers": {
         "a": {
-          "text": "Ich schlage ihm ins Gesicht. *Das ist meine Wahrheit.*",
+          "text": "Ich will das Feuer löschen und diejenigen bestrafen, die es entfacht haben.",
           "result": [0, 3]
         },
         "b": {
-          "text": "Ich lache lauter und sage: *Ich habe den König bestohlen!*",
+          "text": "Ich setze mich auf den Thron. Vielleicht bin ich ja wirklich dazu bestimmt, zu herrschen.",
           "result": [1, 8]
         },
         "c": {
-          "text": "Ich schließe die Augen und atme, bis das Lachen verschwindet.",
+          "text": "Ich betrete den einsamen Turm. Wer weiß, welche Geheimnisse dieser enthält.",
           "result": [6, 11]
         },
         "d": {
-          "text": "Ich sage: *Ich fürchte mich vor der Stille.* – und plötzlich ist es still.",
+          "text": "Ich wandere durch den Wald bei Mondlicht, und versuche ihn zu verstehen.",
           "result": [4, 5]
         }
       }
     },
 
     "12": {
-      "question": "Eine Brücke aus Tränen führt über einen Fluss. Ein Kind fragt: *Warum weinen die Toten?*",
+      "question": "Vor dir liegt eine **Brücke aus vergessenen Knochen**, die über einen schwarzen Fluss führt. Die Wasser flüstern Namen derer, die einst hier wandelten. Ein Kind fragt dich: *Warum trauern die Lebenden um die Toten, wenn die Toten selbst längst weitergezogen sind?*",
       "answers": {
         "a": {
-          "text": "Ich trage das Kind hinüber und sage: *Ich werde mich an dich erinnern.*",
+          "text": "Ich nehme das Kind an die Hand und führe es ans andere Ufer. *Weil wir nicht vergessen dürfen*, antworte ich, *solange noch jemand bleibt, der sich erinnert.*",
           "result": [7, 4]
         },
         "b": {
-          "text": "Ich sammle die Tränen in einer Phiole. Vielleicht sind sie nützlich.",
+          "text": "Ich fülle eine Phiole mit dem schwarzen Wasser. Tränen der Vergangenheit könnten die Tinte für zukünftige Antworten sein.",
           "result": [2, 10]
         },
         "c": {
-          "text": "Ich springe in den Fluss und schwimme durch. Vielleicht finde ich Antworten unten.",
+          "text": "Ich steige hinab in den Fluss und lasse mich von der Strömung treiben. Vielleicht zeigen mir die Stimmen der Verstorbenen, was ich wissen muss.",
           "result": [6, 9]
         },
         "d": {
-          "text": "Ich schreie die Namen der Toten in den Fluss. Vielleicht hören sie mich.",
+          "text": "Ich spreche die Namen der Toten in den Wind und singe ein Lied der Erinnerung. Vielleicht finden sie so den Weg zurück in die Kreisläufe der Welt.",
           "result": [1, 11]
         }
       }
